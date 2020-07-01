@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>QuizApp</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Link to Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+}
+*{box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom:15px;
+}
+
+.icon {
+  padding: 30px;
+  background:dodgerblue;
+  color:white;
+  min-width: 90px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+}
+/*for border focus*/
+.input-field:focus {
+  border: 15px solid dodgerblue;
+}
+
+/* To Set a style for the submit button */
+.btn {
+  background-color:dodgerblue;
+  color: white;
+  padding: 20px 20px;
+  cursor:pointer;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+  font-size:30px;
+}
+
+.btn:hover {
+  opacity: 1.1;
+  color:black;
+}
+body{
+  background-image:url("person-touching-open-macbook-on-table-839465.jpg") ;
+}
+}
+</style>
+</head>
+<body >
+
+<form action="/action_page.php" style="max-width:600px;margin:auto">
+  <br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;
+  
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw" required>
+  </div>
+
+  <button type="submit" class="btn">Login</button>
+</form>
+
+</body>
+</html>

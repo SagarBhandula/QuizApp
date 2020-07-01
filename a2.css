@@ -1,0 +1,74 @@
+body
+{
+
+background-image:url(person-touching-open-macbook-on-table-839465.jpg);background-size:1600px 800px;
+background-repeat:no-repeat;
+}
+
+.left 
+{   
+    text-align:left;
+    float:left;
+    font-size:40px;
+    color:white;
+}
+
+.right
+{
+float:right;
+}
+
+.center a:link, a:visited {
+  background-color: MediumSeaGreen;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   margin-top: 135px;
+  margin-bottom: 0px;
+  margin-right: 450px;
+  margin-left: 680px;
+  font-size:20px;
+  border-radius:12px;
+}
+
+.center a:hover, a:active {
+  background-color:violet;
+  font-size:25px;
+  color:black;
+}
+
+
+.mcolor
+{overflow:hidden;
+background-color:grey;
+}
+
+.mcolor a:link,a:visited
+{ 
+    font-size:40px;
+    text-align:center;
+    padding:20px 40px;
+    color:white;
+    text-decoration:none;
+}
+
+.mcolor a:hover,a:active
+{	
+    color:black;
+    background-color:#ddd;
+    text-decoration:none;
+    font-size:50px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(100,100,100,0.8);
+  color: white;
+ // text-align:center;
+  font-size:15px;
+}
